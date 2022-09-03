@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aprendendo JS</title>
+    <style>
+        body {
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <h1>Aprendendo JavaScript</h1>
+        <p id="texto"></p>
+        <p>
+            <script>
+                document.write('Escrito com <u>document.write</u>')
+            </script>
+        </p>
+    </div>
+    <div>
+        <h1>Interagindo com button</h1>
+        <button onclick="clicou()">Clicar</button>
+    </div>
+    <div>
+        <h1>Trabalhando com dados v1.0</h1>
+        <button onclick="inicio()">Clique para começar</button>
+    </div>
+    <div>
+        <h1>Trabalhando com dados v2.0</h1>
+        <button onclick="inicio2()">Clique para começar</button>
+        <section id="resultado"></section>
+    </div>
+    <div>
+        <h1>Trabalhando com números v1.0</h1>
+        <button onclick="calcular()">Clique para calcular</button>
+        <section id="res"></section>
+    </div>
+    <div>
+        <h1>Trabalhando com números v2.0</h1>
+        <button onclick="somar()">Clique para calcular</button>
+        <section id="resoma">
+            <p>O resultado vem aqui...</p>
+        </section>
+    </div>
+    <div>
+        <h1>Média do aluno v1.0</h1>
+        <button onclick="media()">Calcular média</button>
+        <section id="situacao">
+            <p></p>
+            <p></p>
+            <p></p>
+        </section>
+    </div>
+    <div>
+        <h1>Contador de Cliques</h1>
+        <p id="contador"></p>
+        <button id="btn_incrementar" type="button">+</button>
+        <button id="btn_decrementar" type="button">-</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
